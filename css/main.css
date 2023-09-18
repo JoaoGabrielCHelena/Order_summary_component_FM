@@ -17,7 +17,24 @@ body {
   }
 }
 
+#summary-card {
+  font-family: "Red Hat Display", sans-serif;
+  max-width: 450px;
+}
+#summary-card .card-body {
+  padding: 50px;
+}
+
 .plan-summary {
   display: grid;
   grid-template-columns: min-content auto min-content;
+  align-items: center;
+  padding: 22px;
+  background: hsl(225, 100%, 98%);
+}
+.plan-summary * {
+  margin: 0;
+}
+.plan-summary div {
+  margin-left: 22px;
 }/*# sourceMappingURL=main.css.map */
